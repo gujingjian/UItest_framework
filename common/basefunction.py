@@ -110,6 +110,6 @@ if __name__ == "__main__":
    # 聚焦元素
     driver = webdriver.Firefox()
     base = Base(driver)
-    driver.get("http://www.cnblogs.com/yoyoketang/p/")
-    ele = ("xpath","//h3[text()='最新评论']")
+    driver.get("http://prem2.yaolaivip.com/#/realIndex")
+    ele = ("xpath",".//*[text()='精品热卖']")
     base.js_focus(ele)
